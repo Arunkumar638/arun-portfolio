@@ -102,7 +102,7 @@ export const projectsData = [
   {
     title: "CarePulse",
     description:
-      "This is my personal project for learning new technologies like Appwrite and Shadcn. It is a patient management app where users can book appointments, and admins can schedule or cancel them.",
+      `This is my personal project for learning new technologies like Appwrite and Shadcn. It is a patient management app where users can book appointments, and admins can schedule or cancel them.`,
     tags: ["Next.js", "Shadcn", "TypeScript", "Tailwind CSS", "Appwrite", "Sentry", "Twilio"],
     imageUrl: carepulseImg,
   },
