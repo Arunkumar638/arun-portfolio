@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a master degree in{" "}
-        <span className="font-medium">Computer Applications</span>, I aiming to become a
+        <span className="font-medium">Computer Applications</span>, I'm aiming to become a
         developer. I joined intern as {" "}
         <span className="font-medium">front-end developer</span>,{" "} where I learned to create web applications using Next.js with powerful UIs and REST APIs using basic Node.js.{" "}
         <span className="italic">My favorite part of programming</span> is the
