@@ -61,7 +61,7 @@ export const experiencesData = [
 export const eduactionData = [
   {
     title: "B.sc(Computer Science)",
-    location: "NMSSVN College, Madurai",
+    location: "S.Vellaichamy Nadar College, Madurai",
     description:
       "I completed my undergraduate degree in Computer Science, where I developed an interest in programming languages. Initially, C and C++ were challenging, but learning Java and JavaScript made modern concepts easier to grasp. I also enjoyed studying Digital Principles, particularly Logic Gates and Digital Circuits.",
     icon: React.createElement(LuGraduationCap),
