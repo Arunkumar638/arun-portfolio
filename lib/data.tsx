@@ -108,11 +108,11 @@ export const projectsData = [
     description:
       "I Contributed in full-stack development in this project. It has features like course shopping, cart management, Payment for purchase course and all details managed by admin.",
     tags: [
-      <IconOrImage icon={<TbBrandReact />} title="React" />,
-      <IconOrImage icon={<TbBrandMongodb />} title="MongoDB" />,
-      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" />,
-      <IconOrImage icon={<SiAxios />} title="Axios" />,
-      <IconOrImage icon={<TbBrandNodejs />} title="Node.js" />
+      <IconOrImage icon={<TbBrandReact />} title="React" key='React' />,
+      <IconOrImage icon={<TbBrandMongodb />} title="MongoDB" key='MongoDB' />,
+      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" key='CSS3' />,
+      <IconOrImage icon={<SiAxios />} title="Axios" key='Axios' />,
+      <IconOrImage icon={<TbBrandNodejs />} title="Node.js" key='Node.js' />
     ],
     imageUrl: elearningImg || "../public/elearning.png",
   },
@@ -121,10 +121,10 @@ export const projectsData = [
     description:
       "I Contributed in Front-end development for this project. It is a MLM platform where users earn some bonuses based on their referrals. It has some features like KYC, Withdrawal, Earning history, leaderboard, etc.",
     tags: [
-      <IconOrImage icon={<TbBrandReact />} title="React" />,
-      <IconOrImage icon={<BiLogoTypescript />} title="Typescript" />,
-      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" />,
-      <IconOrImage icon={<SiAxios />} title="Axios" />,
+      <IconOrImage icon={<TbBrandReact />} title="React" key='React' />,
+      <IconOrImage icon={<BiLogoTypescript />} title="Typescript" key='Typescript' />,
+      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" key='CSS3' />,
+      <IconOrImage icon={<SiAxios />} title="Axios" key='Axios' />,
     ],
     imageUrl: horebmlmImg || "../public/horebmlm.png",
   },
@@ -133,12 +133,12 @@ export const projectsData = [
     description:
       "I Contributed in Back-end development and Admin Panel for this project. It is a Crypto wallet for users. It has some features like KYC, 2FA, Import new tokens, Send and Recieve tokens.",
     tags: [
-      <IconOrImage icon={<TbBrandReact />} title="React" />,
-      <IconOrImage icon={<BiLogoTypescript />} title="Typescript" />,
-      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" />,
-      <IconOrImage icon={<SiAxios />} title="Axios" />,
-      <IconOrImage icon={<TbBrandNodejs />} title="Node.js" />,
-      <IconOrImage icon={<TbBrandMysql />} title="MySQL" />
+      <IconOrImage icon={<TbBrandReact />} title="React" key='React' />,
+      <IconOrImage icon={<BiLogoTypescript />} title="Typescript" key='Typescript' />,
+      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" key='CSS3' />,
+      <IconOrImage icon={<SiAxios />} title="Axios" key='Axios' />,
+      <IconOrImage icon={<TbBrandNodejs />} title="Node.js" key='Node.js' />,
+      <IconOrImage icon={<TbBrandMysql />} title="MySQL" key='MySQL' />
 
     ],
     imageUrl: purepayImg || "../public/purepay.png",
@@ -147,13 +147,13 @@ export const projectsData = [
     title: "CarePulse",
     description: `This is my personal project for learning new technologies like Appwrite and Shadcn. It is a patient management app where users can book appointments, and admins can schedule or cancel them.`,
     tags: [
-      <IconOrImage icon={<TbBrandNextjs />} title="Next.js" />,
-      <IconOrImage icon={<BiLogoTypescript />} title="Typescript" />,
-      <IconOrImage icon={<TbBrandTailwind />} title="Tailwind CSS" />,
-      <IconOrImage icon={<SiAppwrite />} title="Appwrite" />,
-      <IconOrImage imageUrl={shadcnImg.src} altText="shadcn" title="Shadcn" />,
-      <IconOrImage icon={<TbBrandSentry />} title="Sentry" />,
-      <IconOrImage icon={<TbBrandTwilio />} title="Twilio" />
+      <IconOrImage icon={<TbBrandNextjs />} title="Next.js" key='Next.js' />,
+      <IconOrImage icon={<BiLogoTypescript />} title="Typescript" key='Typescript' />,
+      <IconOrImage icon={<TbBrandTailwind />} title="Tailwind CSS" key='Tailwind CSS' />,
+      <IconOrImage icon={<SiAppwrite />} title="Appwrite" key='Appwrite' />,
+      <IconOrImage imageUrl={shadcnImg.src} altText="shadcn" title="Shadcn" key='Shadcn' />,
+      <IconOrImage icon={<TbBrandSentry />} title="Sentry" key='Sentry' />,
+      <IconOrImage icon={<TbBrandTwilio />} title="Twilio" key='Twilio' />
     ],
     imageUrl: carepulseImg || "../public/carepulse.png",
   },
