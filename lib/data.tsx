@@ -110,7 +110,7 @@ export const projectsData = [
     tags: [
       <IconOrImage icon={<TbBrandReact />} title="React" key='React' />,
       <IconOrImage icon={<TbBrandMongodb />} title="MongoDB" key='MongoDB' />,
-      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" key='CSS3' />,
+      <IconOrImage icon={<TbBrandCss3 />} title="CSS" key='CSS' />,
       <IconOrImage icon={<SiAxios />} title="Axios" key='Axios' />,
       <IconOrImage icon={<TbBrandNodejs />} title="Node.js" key='Node.js' />
     ],
@@ -123,7 +123,7 @@ export const projectsData = [
     tags: [
       <IconOrImage icon={<TbBrandReact />} title="React" key='React' />,
       <IconOrImage icon={<BiLogoTypescript />} title="Typescript" key='Typescript' />,
-      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" key='CSS3' />,
+      <IconOrImage icon={<TbBrandCss3 />} title="CSS" key='CSS' />,
       <IconOrImage icon={<SiAxios />} title="Axios" key='Axios' />,
     ],
     imageUrl: horebmlmImg || "../public/horebmlm.png",
@@ -135,7 +135,7 @@ export const projectsData = [
     tags: [
       <IconOrImage icon={<TbBrandReact />} title="React" key='React' />,
       <IconOrImage icon={<BiLogoTypescript />} title="Typescript" key='Typescript' />,
-      <IconOrImage icon={<TbBrandCss3 />} title="CSS3" key='CSS3' />,
+      <IconOrImage icon={<TbBrandCss3 />} title="CSS" key='CSS' />,
       <IconOrImage icon={<SiAxios />} title="Axios" key='Axios' />,
       <IconOrImage icon={<TbBrandNodejs />} title="Node.js" key='Node.js' />,
       <IconOrImage icon={<TbBrandMysql />} title="MySQL" key='MySQL' />
