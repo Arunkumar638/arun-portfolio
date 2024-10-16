@@ -37,7 +37,7 @@ export default function About() {
         video games, carrom, and gardening in my house. I also enjoy{" "}
         <span className="font-medium">learning new things</span> and am currently
         exploring{" "}
-        <span className="font-medium">basics of docker compose, framer motion and Acternity UI</span>.
+        <span className="font-medium">basics of docker compose, framer motion and deployment on server</span>.
       </p>
     </motion.section>
   );
